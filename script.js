@@ -42,9 +42,39 @@ const quizArray = [
   },
   {
     id: "3",
-    question: "Melyi volt a legelső iPhone?",
+    question: "Mi volt a legelső iPhone neve?",
     options: ["iPhone 1", "iPhone 2", "iPhone 2G", "iPhone"],
     correct: "iPhone 2G",
+  },
+  {
+    id: "4",
+    question: "Mikor alapult meg az Apple?",
+    options: ["1980", "1976", "2000", "1989"],
+    correct: "1976",
+  },
+  {
+    id: "5",
+    question: "Melyik iPhone modell használta először a Face ID technológíát?",
+    options: ["iPhone X", "iPhone 7", "iPhone 5S", "iPhone 11"],
+    correct: "iPhone X",
+  },
+  {
+    id: "6",
+    question: "Melyik iPhone modellen tűnt el a jack csatlakozó",
+    options: ["iPhone 12", "iPhone SE 2020", "iPhone 8", "iPhone 7"],
+    correct: "iPhone 7",
+  },
+  {
+    id: "7",
+    question: "Melyik iPhone modellen tűnt el a jack csatlakozó",
+    options: ["iPhone 12", "iPhone SE 2020", "iPhone 8", "iPhone 7"],
+    correct: "iPhone 7",
+  },
+  {
+    id: "7",
+    question: "Melyik iPhone modellen tűnt el a jack csatlakozó",
+    options: ["iPhone 12", "iPhone SE 2020", "iPhone 8", "iPhone 7"],
+    correct: "iPhone 7",
   },
 ];
 
