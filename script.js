@@ -19,9 +19,9 @@ let countdown;
 const quizArray = [
   {
     id: "0",
-    question: "Melyik volt a legelső iPhone?",
-    options: ["iPhone 1", "iPhone 2", "iPhone 2G", "iPhone"],
-    correct: "iPhone 2G",
+    question: "Melyik iPhone használt először Touch ID technológiát?",
+    options: ["iPhone 4", "iPhone 3G", "iPhone 6S", "iPhone 5S"],
+    correct: "iPhone 5S",
   },
   {
     id: "1",
@@ -66,15 +66,21 @@ const quizArray = [
   },
   {
     id: "7",
-    question: "Melyik iPhone modellen tűnt el a jack csatlakozó",
-    options: ["iPhone 12", "iPhone SE 2020", "iPhone 8", "iPhone 7"],
-    correct: "iPhone 7",
+    question: "Melyik iPhone modellen mutatták be először a dupla-kamerás rendszert?",
+    options: ["iPhone 14", "iPhone 6S", "iPhone 8", "iPhone 7 plus"],
+    correct: "iPhone 7 plus",
   },
   {
-    id: "7",
-    question: "Melyik iPhone modellen tűnt el a jack csatlakozó",
-    options: ["iPhone 12", "iPhone SE 2020", "iPhone 8", "iPhone 7"],
-    correct: "iPhone 7",
+    id: "8",
+    question: "Hány méterig vizálló az iPhone X?",
+    options: ["1m", "2m", "20m", "50m"],
+    correct: "1m",
+  },
+  {
+    id: "9",
+    question: "Melyik iPhone modellen vált lehetővé legelőször az 5G-s mobilhálózat használata? ",
+    options: ["iPhone 12", "iPhone 8", "iPhone X", "iPhone 13"],
+    correct: "iPhone 12",
   },
 ];
 
