@@ -60,7 +60,7 @@ const quizArray = [
   },
   {
     id: "6",
-    question: "Melyik iPhone modellen tűnt el a jack csatlakozó",
+    question: "Melyik iPhone modellen tűnt el a jack csatlakozó?",
     options: ["iPhone 12", "iPhone SE 2020", "iPhone 8", "iPhone 7"],
     correct: "iPhone 7",
   },
