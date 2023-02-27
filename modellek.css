@@ -2,6 +2,13 @@
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 
+.cropped{
+  width: 400px; 
+  height: 225px; 
+  object-fit: cover;
+  object-position: 50% 0%; 
+  }
+
 body {
     color: #5a5a5a;
   }
@@ -80,4 +87,7 @@ body {
   }
   .carousel-control-prev-icon, .carousel-control-next-icon{
 background-color: black !important;
+  }
+  .button{
+    text-decoration: none !important;
   }
