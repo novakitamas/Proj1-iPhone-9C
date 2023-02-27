@@ -30,3 +30,9 @@
 .dropdown-toggle {
   outline: 0;
 }
+
+
+
+.nav-link:hover {
+  border-bottom: 2px solid gray;
+}
