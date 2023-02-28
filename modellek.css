@@ -2,12 +2,13 @@
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 
-.cropped{
-  width: 400px; 
-  height: 225px; 
-  object-fit: cover;
-  object-position: 50% 0%; 
-  }
+.image-cropped-calc {
+    object-position: 50% 0%;
+    width: calc(400);
+    height: calc(225);
+    object-fit: cover;
+}
+
 
 body {
     color: #5a5a5a;
