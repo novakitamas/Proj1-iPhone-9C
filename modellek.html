@@ -8,10 +8,15 @@
 <link rel="stylesheet" href="modellek.css">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
-
     <style>
+      @media(max-width: 768px){
+        #iphone{
+          margin-top: 50px;
+          width: 768px;
+          margin-left: 0% !important;
+        }
+      }
+
       .bd-placeholder-img {
         font-size: 1.125rem;
         text-anchor: middle;
@@ -55,7 +60,6 @@
         text-align: center;
         white-space: nowrap;
         -webkit-overflow-scrolling: touch;
-        
       }
     </style>
     <link rel="shortcut icon" href="kepek/logo.png" type="image/x-icon">
@@ -87,7 +91,6 @@
       </div>
     </div>
   </nav>
-
   <main>
     <div id="myCarousel" class="carousel-dark slide carousel" data-bs-ride="carousel">
       <div class="carousel-indicators">
@@ -97,21 +100,21 @@
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
-  <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-14-model-unselect-gallery-2-202209_GEO_EMEA_FMT_WHH?wid=1280&hei=492&fmt=p-jpg&qlt=80&.v=1660745126016" aria-hidden="true"  alt="" width="100%">
+  <img id="iphone" class="image-cropped-calc" src="https://www.mobilegyans.com/wp-content/uploads/2022/01/iPhone-14-Pro-Max.jpeg"  aria-hidden="true"  alt="" width="100%">
           <div class="container">
-            <div class="carousel-caption text-start">
-              <h1 style="color:black ;">46 Éves az Apple!</h1>
-              <p style="color:black ;">Tekintse meg legújabb készülékajánlatainkat!</p>
+            <div class="bg-transparent carousel-caption text-start">
+              <h1 class="text-light">46 Éves az Apple!</h1>
+              <p class="text-light">Tekintse meg legújabb készülékajánlatainkat!</p>
               <p><a class="btn btn-lg btn-primary" href="https://www.apple.com/shop/buy-iphone" target="_blank">Tovább</a></p>
             </div>
           </div>
         </div>
         <div class="carousel-item">
-  <img src="https://as-images.apple.com/is/MHXH3_AV1?wid=1000&hei=1000&fmt=jpeg&qlt=95&.v=1661269794729" alt="" aria-hidden="true" width="100%">
+  <img  src="https://as-images.apple.com/is/MHXH3_AV1?wid=1000&hei=1000&fmt=jpeg&qlt=95&.v=1661269794729" alt="" aria-hidden="true" width="100%">
           <div class="container">
             <div class="carousel-caption">
-              <h1 style="color:black ;">MagSafe</h1>
-              <p style="color:black ;">Nézze meg legújabb töltési technológiánkat!</p>
+              <h1 class="text-dark">MagSafe</h1>
+              <p class="text-dark">Nézze meg legújabb töltési technológiánkat!</p>
               <p><a class="btn btn-lg btn-primary" href="https://www.apple.com/hu/shop/accessories/all/magsafe" target="_blank">Tudjon meg többet</a></p>
             </div>
           </div>
@@ -120,8 +123,8 @@
           <img src="https://imageio.forbes.com/specials-images/imageserve/60ca4903b52bedfa9ad71929/Apple-AirPods-Pro/960x0.jpg?format=jpg&width=960" alt="" aria-hidden="true" >
           <div class="container">
             <div class="carousel-caption text-end">
-              <h1 style="color:black ;">Vegyen egy új AirPods-ot</h1>
-              <p style="color:black ;">Élvezze legújabb AirPods modelleink egyikét, amelyet a leginnovatívabb módon fejlesztettünk</p>
+              <h1 class="text-dark">Vegyen egy új AirPods-ot</h1>
+              <p class="text-dark">Élvezze legújabb AirPods modelleink egyikét, amelyet a leginnovatívabb módon fejlesztettünk</p>
               <p><a class="btn btn-lg btn-primary" href="https://www.apple.com/airpods-pro/" target="_blank">Vásárlás</a></p>
             </div>
           </div>
@@ -319,6 +322,6 @@
     </div>
   
   </main>
-<script src="modellek.js"></script>
+<script src="bs.js"></script>
 </body>
 </html>
