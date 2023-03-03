@@ -36,3 +36,6 @@
 .nav-link:hover {
   border-bottom: 2px solid gray;
 }
+body{
+  scroll-behavior: smooth;
+}
