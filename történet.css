@@ -3,3 +3,38 @@ body {
     background-size: cover;
     background-position: 50% 0%;
 }
+
+#hp1  {
+    float: right;    
+     margin: 0 0 0 15px;
+     max-width: 230px;
+     max-height: 230px;
+    }
+
+#hp2  {
+    float: left;    
+        margin: 0 0 0 15px;
+        max-width: 400px;
+        max-height: 400px;
+    }
+
+#hp3  {
+    float: right;    
+        margin: 0 0 0 15px;
+        max-width: 400px;
+        max-height: 400px;
+    }
+
+#hp4  {
+    float: left;    
+        margin: 0 0 0 15px;
+        max-width: 350px;
+        max-height: 350px;
+    }
+
+.image-cropped-calc {
+    object-position: 50% 0%;
+    width: calc(230px);
+    height: calc(230px);
+    object-fit: cover;
+}
