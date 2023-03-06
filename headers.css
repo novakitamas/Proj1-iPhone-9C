@@ -37,13 +37,3 @@
 body{
   scroll-behavior: smooth;
 }
-
-.align-items-center {
-  -ms-flex-align: center!important;
-  align-items: center!important;
-}
-
-.d-flex {
-  display: -ms-flexbox!important;
-  display: flex!important;
-}
