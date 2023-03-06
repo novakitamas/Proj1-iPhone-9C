@@ -11,8 +11,8 @@
       if (!form.checkValidity()) {
         event.preventDefault()
         event.stopPropagation()
-      }
-
+      } else  
+        alert("Köszönjük a visszajelzést, hamarosan felvesszük önnel a kapcsolatot!")
       form.classList.add('was-validated')
     }, false)
   })
